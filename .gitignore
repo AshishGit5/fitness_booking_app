@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+*.eggs/
+*.env
+.env
+.venv/
+venv/
+ENV/
+env/
+*.log
+
+# Django
+db.sqlite3
+*.sqlite3
+*.log
+media/
+staticfiles/
+local_settings.py
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Pycharm
+.idea/
+
+# Test
+.coverage
+htmlcov/
+coverage.xml
+
+# Migrations (optional to ignore if you want to include them)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+
+
+# Django sensitive settings (if separated)
+settings_local.py
+
+*.cover
+nosetests.xml
+test-results/

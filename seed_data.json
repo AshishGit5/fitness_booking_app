@@ -1,0 +1,22 @@
+[
+    {
+        "model": "bookings.fitnessclass",
+        "fields": {
+            "name": "Yoga",
+            "date_time": "2025-06-06T07:00:00Z",
+            "instructor": "Amit",
+            "total_slots": 10,
+            "available_slots": 10
+        }
+    },
+    {
+        "model": "bookings.fitnessclass",
+        "fields": {
+            "name": "Zumba",
+            "date_time": "2025-06-06T09:00:00Z",
+            "instructor": "Neha",
+            "total_slots": 15,
+            "available_slots": 15
+        }
+    }
+]
